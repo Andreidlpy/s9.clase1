@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header container">
+        <h1 class="header__heading">Preguntas Javascript Objeto literal</h1>
+    </header>
+
+    <main class="questions container">
+        <div class="questions__grid">
+            <div class="question">
+                    <h5 class="question__heading">
+                        Que es un objeto literal
+                    </h5>
+                    <p class="question__text">
+                        Es un objeto donde puedes almacenar 
+                        infinidad de datos agregando su propiedad y su valor.
+                    </p>
+            </div>
+            <div class="question">
+                    <h5 class="question__heading">
+                        1era forma acceder a los valores de un objeto.
+                    </h5>
+                    <div class="question__answer">
+                        <p class="question__text">
+                            persona.name
+                        </p>
+                    </div>
+            </div>
+            <div class="question">
+                <h5 class="question__heading">
+                    2da forma de acceder a los valores de un objeto.
+                </h5>
+                <div class="question__answer">
+                    <p class="question__text">
+                        persona['name']
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <h5 class="question__heading">
+                    Como agrego contenido al objeto.
+                </h5>
+                <div class="question__answer">
+                    <p class="question__text">
+                        persona.edad = 36
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <h5 class="question__heading">
+                    Modificar contenido del objeto.
+                </h5>
+                <div class="question__answer">
+                    <p class="question__text">
+                        persona.name = 'Smith'
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <h5 class="question__heading">
+                    Eliminar info de un objeto.
+                </h5>
+                <div class="question__answer">
+                    <p class="question__text">
+                        delete persona.name 
+                    </p>
+                </div>
+            </div>
+            <div class="question">
+                <h5 class="question__heading">
+                    Ejemplo.
+                </h5>
+                <div class="question__answer">
+                    <p class="question__text">
+                       <code>
+                        const persona = {
+                            nombre: 'Juan',
+                            apellido: 'Pérez',
+                            edad: 30,
+                            genero: 'Masculino',
+                            direccion: {
+                              calle: '123 Calle Principal',
+                              ciudad: 'Ciudad de Ejemplo',
+                              codigoPostal: '12345'
+                            },
+                            hobbies: ['Lectura', 'Deportes', 'Pintura']
+                          };
+                       </code>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
